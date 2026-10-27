@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    background-color: #1a252f;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    color: #3498db;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.navbar nav a:hover {
+    color: #3498db;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.card-large {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.card-large img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.card-large h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.sidebar {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.ad-placeholder {
+    background-color: #e9ecef;
+    border: 2px dashed #ced4da;
+    border-radius: 6px;
+    padding: 2rem;
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+
+.trending-list {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.trending-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+footer {
+    background-color: #1a252f;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: #3498db;
+    margin: 0 0.5rem;
+}
